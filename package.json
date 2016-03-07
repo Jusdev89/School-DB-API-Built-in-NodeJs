@@ -1,0 +1,24 @@
+{
+  "name": "schoolsapi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Restful API for Schools (K-12, US)",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.8.6",
+    "body-parser": "~1.6.6",
+    "morgan": "~1.2.3",
+    "serve-favicon": "~2.0.1",
+    "debug": "~1.0.4",
+    "jade": "~1.6.0",
+    "mysql": "*",
+    "compression": "*",
+    "express-validator": "~2.1.2",
+    "newrelic": "*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
